@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f2">
+  <meta name="description" content="Talk to DreamHomes Real Estate about buying, selling, or finding your next home in Nairobi.">
+  <title>Contact us | DreamHomes Real Estate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="contact">
+  <div id="site-header"></div>
+  <main>
+    <section class="page-hero contact-hero page-width">
+      <div><p class="eyebrow"><span class="eyebrow-dot"></span> We’re all ears</p><h1>Tell us what<br><em>home means.</em></h1></div>
+      <p class="page-hero-copy">A first home, a fresh start, a little more room—we’d love to hear what you have in mind.</p>
+    </section>
+    <section class="contact-section page-width">
+      <div class="contact-info">
+        <p class="eyebrow">Let’s make it happen</p><h2>Good things start<br>with <em>hello.</em></h2>
+        <p class="body-copy">Tell us a little about what you’re looking for. Our local team will be in touch to help you take the next step.</p>
+        <div class="contact-links">
+          <a href="tel:0710495490"><span class="contact-symbol">↗</span><span><small>Give us a call</small><strong>0710495490</strong></span></a>
+          <a href="mailto:Kyalos766@gmail.com"><span class="contact-symbol">↗</span><span><small>Drop us a line</small><strong>Kyalos766@gmail.com</strong></span></a>
+          <div><span class="contact-symbol">⌖</span><span><small>Come say hello</small><strong>Westlands, Nairobi, Kenya</strong></span></div>
+        </div>
+        <div class="social-links"><span>FOLLOW ALONG</span><a href="https://www.instagram.com/" aria-label="Instagram">ig</a><a href="https://www.facebook.com/" aria-label="Facebook">f</a><a href="https://www.linkedin.com/" aria-label="LinkedIn">in</a></div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <p class="eyebrow">Send us a note</p>
+        <div class="form-row"><label>Your name<input name="name" type="text" placeholder="e.g. Alex Kamau" autocomplete="name" required></label><label>Email address<input name="email" type="email" placeholder="you@example.com" autocomplete="email" required></label></div>
+        <div class="form-row"><label>Phone number <span class="optional">(optional)</span><input name="phone" type="tel" placeholder="+254 7XX XXX XXX" autocomplete="tel"></label><label>I’m interested in<select name="interest" required><option value="" disabled selected>Select one</option><option>Buying a home</option><option>Renting a home</option><option>Selling a property</option><option>Something else</option></select></label></div>
+        <label>Anything else we should know?<textarea name="message" rows="4" placeholder="Tell us what your ideal home looks like..." required></textarea></label>
+        <button class="button button-dark" type="submit">Send your message <span aria-hidden="true">↗</span></button>
+        <p class="form-note" id="contact-feedback" aria-live="polite">Submitting opens your email app with your message addressed to our team.</p>
+      </form>
+    </section>
+    <section class="map-section page-width">
+      <div class="map-label"><span class="map-pin">⌖</span><span><strong>Find us in Westlands</strong><small>Nairobi, Kenya</small></span><a href="https://maps.google.com/?q=Westlands,Nairobi,Kenya" target="_blank" rel="noopener noreferrer" aria-label="Open our location in Google Maps">↗</a></div>
+      <iframe title="Map showing Westlands, Nairobi" src="https://maps.google.com/maps?q=Westlands%2C%20Nairobi%2C%20Kenya&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="app.js"></script>
+</body>
+</html>
